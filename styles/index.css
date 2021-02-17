@@ -1,0 +1,91 @@
+body {
+    background-color: black;
+    padding: 0;
+    margin: 0;
+}
+
+body, html {
+    height: 100%;
+}
+
+.bge {
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg::before {
+    content: "";
+    /* background-image: url("/images/background.jpeg"); */
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 15%;
+    pointer-events: none;
+}
+
+.bg {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.front {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.header-text {
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 100px;
+    margin: 0;
+}
+
+.header-logo {
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+ul {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+h3 {
+    color: white;
+    text-align: center;
+}
+
+.link-bar {
+    margin: auto;
+    border: 3px solid rgb(24, 24, 24);
+    padding: 10px;
+    width: 80%;
+}
+
+.header-logo {
+    width: 300px;
+    border: 3px solid rgb(24, 24, 24);
+}
+
+.logo {
+    width: 50px;
+}
+  
